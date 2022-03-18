@@ -1,0 +1,107 @@
+@media (max-width: 1279px) {
+    .skill {
+        height: 270px;
+    }
+}
+
+@media (max-width: 959px) {
+    .skill {
+        height: 240px;
+    }
+}
+
+@media (max-width: 620px) {
+    .crutch,
+    .nav-sidebar {
+        width: 100%;
+    }
+
+    h1,
+    span.mobile,
+    #hero-description {
+        width: calc(100% - 60px);
+    }
+
+    aside.open {
+        height: 100%;
+    }
+
+    .nav-container,
+    #hero {
+        background-size: 768px !important;
+    }
+
+    .nav-container {
+        background-position: right 0 !important;
+    }
+
+    #hero {
+        height: 499px;
+        background-position: right -90px;
+    }
+
+    #hero-decription {
+        padding-bottom: auto
+    }
+
+    .blackout {
+        display: none;
+    }
+}
+
+@media (max-width: 560px) {
+    .section-title {
+        width: 280px;
+    }
+
+    #hero-description {
+        padding-bottom: calc(55% - 240px);
+    }
+
+    #hero-description p {
+        padding-top: 25px;
+    }
+}
+
+@media (max-width: 485px) {
+    .button-line {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .portlolio-picture {
+        max-width: calc(100% - 40px);
+    }
+
+    .price-block {
+        max-width: calc(100% - 40px);
+    }
+}
+
+@media (max-width: 390px) {
+    .nav-logo {
+        margin: 0;
+        transition: 0.5s;
+    }
+
+    .nav-sidebar.open {
+        padding-left: 60px;
+    }
+
+    #switcher {
+        right: 74px;
+    }
+
+    .theme-switcher {
+        margin-left: 20px;
+    }
+
+    .ham {
+        right: 20px;
+    }
+
+    #video-button {
+        width: 45px;
+        height: 45px;
+    }
+}

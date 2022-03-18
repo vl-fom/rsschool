@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@250;300;400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="./assets/memory.png" type="image/svg+xml">
+</head>
+<body>
+    <header>
+        <h1>Memory Game</h1>
+        <div class="buttons">
+            <div class="two-buttons">
+                <button class="new-game-button">New Game</button>
+                <button class="name-section-button">Set name</button>
+            </div>
+            <div class="two-buttons">
+                <button class="show-results-button">Show results</button>
+                <button class="reset-button">Reset results</button>
+            </div>
+        </div>
+    </header>
+    <main class="container">
+        <section class="name-section">
+            <div class="form">
+                <input class="name-input" type="text" name="search-input" placeholder="Enter your name" autocomplete="on" autofocus/>
+                <button class="set-name-button" type="button">Set</button>
+                <button class="close-form-button close-button">Close</button>
+            </div>
+        </section>
+        <div class="cardholder">
+            <div class="card" data-picture="angular">
+                <img class="front" src="../memory-game/assets/svg/angular.svg" alt="angular">
+                <img class="back" src="../memory-game/assets/svg/js-badge.svg" alt="badge">
+            </div>
+            <div class="card" data-picture="angular">
+                <img class="front" src="../memory-game/assets/svg/angular.svg" alt="angular">
+                <img class="back" src="../memory-game/assets/svg/js-badge.svg" alt="badge">
+            </div>
+            <div class="card" data-picture="aurelia">
+                <img class="front" src="../memory-game/assets/svg/aurelia.svg" alt="aurelia">
+                <img class="back" src="../memory-game/assets/svg/js-badge.svg" alt="badge">
+            </div>
+            <div class="card" data-picture="aurelia">
+                <img class="front" src="../memory-game/assets/svg/aurelia.svg" alt="aurelia">
+                <img class="back" src="../memory-game/assets/svg/js-badge.svg" alt="badge">
+            </div>
+            <div class="card" data-picture="backbone">
+                <img class="front" src="../memory-game/assets/svg/backbone.svg" alt="backbone">
+                <img class="back" src="../memory-game/assets/svg/js-badge.svg" alt="badge">
+            </div>
+            <div class="card" data-picture="backbone">
+                <img class="front" src="../memory-game/assets/svg/backbone.svg" alt="backbone">
+                <img class="back" src="../memory-game/assets/svg/js-badge.svg" alt="badge">
+            </div>
+            <div class="card" data-picture="ember">
+                <img class="front" src="../memory-game/assets/svg/ember.svg" alt="ember">
+                <img class="back" src="../memory-game/assets/svg/js-badge.svg" alt="badge">
+            </div>
+            <div class="card" data-picture="ember">
+                <img class="front" src="../memory-game/assets/svg/ember.svg" alt="ember">
+                <img class="back" src="../memory-game/assets/svg/js-badge.svg" alt="badge">
+            </div>
+            <div class="card" data-picture="react">
+                <img class="front" src="../memory-game/assets/svg/react.svg" alt="react">
+                <img class="back" src="../memory-game/assets/svg/js-badge.svg" alt="badge">
+            </div>
+            <div class="card" data-picture="react">
+                <img class="front" src="../memory-game/assets/svg/react.svg" alt="react">
+                <img class="back" src="../memory-game/assets/svg/js-badge.svg" alt="badge">
+            </div>
+            <div class="card" data-picture="vue">
+                <img class="front" src="../memory-game/assets/svg/vue.svg" alt="vue">
+                <img class="back" src="../memory-game/assets/svg/js-badge.svg" alt="badge">
+            </div>
+            <div class="card" data-picture="vue">
+                <img class="front" src="../memory-game/assets/svg/vue.svg" alt="vue">
+                <img class="back" src="../memory-game/assets/svg/js-badge.svg" alt="badge">
+            </div>
+        </div>
+        <section class="results">
+            <div class="user-result-container"><h1>Your result:&nbsp;</h1><h1 class="user-result"></h1><h1>&nbsp;moves</h1></div>
+            <table>
+                <tbody class="results-body">
+                    <tr style="order: -1;">
+                        <th class="results-name">Name</th>
+                        <th class="results-moves">Moves</th>
+                    </tr>
+                </tbody>
+            </table>
+            <button class="close-results-button close-button">Close results</button>
+        </section>
+    </main>
+    <footer>
+        <a class="gh" href="https://github.com/vl-fom">©<span> 2022 </span>github</a>
+        <a class="rss" href="https://rs.school/js-stage0/"><div></div></a>
+    </footer>
+    <script src="./index.js"></script>
+</body>
+</html>

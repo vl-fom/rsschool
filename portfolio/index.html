@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/style1440.css">
+    <link rel="stylesheet" href="./styles/style1024.css">
+    <link rel="stylesheet" href="./styles/style768.css">
+    <link rel="stylesheet" href="./styles/style-mobile.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@250;300;400;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="./assets/svg/camera.svg" type="image/svg+xml">
+</head>
+<body>
+    <header class="header">
+        <div class="container nav-container">
+            <div class="nav-logo footer-logo"></div>
+            <nav class="nav">
+                <ul class="nav-list">                    
+                    <li class="nav-item">
+                        <a href="#skills" class="nav-link" data-i18="skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#portfolio" class="nav-link" data-i18="portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#video" class="nav-link" data-i18="video">Video</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#price" class="nav-link" data-i18="price">Price</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contacts" class="nav-link" data-i18="contacts">Contacts</a>
+                    </li>                
+                </ul>
+            </nav>
+            <div id="switcher">
+                <p class="switcher-container"><span class="switcher active" id="en" data-lang="en">EN</span><span class="slash"> / </span><span class="switcher" id="ru" data-lang="ru">RU</span></p>
+            </div>
+            <div class="theme-switcher">
+                <svg class="sun" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 45 45">
+                    <g class="sun" stroke="#ffffff" stroke-width="3" fill="transparent">
+                        <circle class="sun" cx="22.5" cy="22.5" r="8.5"/>
+                        <path class="sun" id="path45" d="M 3,22.5 l 7,0 M 22.5,3 l 0,7 M 35,22.5 l 7,0 M 22.5,35 l 0,7"/>
+                        <path class="sun" id="path0" d="M 3,22.5 l 7,0 M 22.5,3 l 0,7 M 35,22.5 l 7,0 M 22.5,35 l 0,7"/>
+                    </g>
+                </svg>
+                <div class="moon light"></div>
+            </div>
+            <div class="ham">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </div>            
+            <div class="crutch">
+                <div class="blackout crutch"></div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container nav-container">
+            <section class="section" id="hero">
+                <div id="hero-description">
+                    <h1 data-i18="hero-title">Alexa Rise</h1>
+                    <span class="desktop" data-i18="hero-text-1-1">Save sincere emotions, romantic feelings and</span><span class="desktop" data-i18="hero-text-1-2">happy moments of life together with professional</span><span class="desktop" data-i18="hero-text-1-3">photographer Alexa Rise</span>
+                    <span class="mobile" data-i18="hero-text-2-1">Save sincere emotions, romantic feelings</span><span class="mobile" data-i18="hero-text-2-2">and happy moments of life together with</span><span class="mobile" data-i18="hero-text-2-3">professional photographer Alexa Rise</span>
+                    <p><button class="button-gold" onclick="document.location='#contacts'" data-i18="hire">Hire me</button></p>   
+                </div>
+                <aside class="nav-sidebar">
+                    <div class="blackout nav-sidebar"></div>
+                    <ul class="nav-list">                    
+                        <li class="nav-item">
+                            <a href="#skills" class="nav-link" data-i18="skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#portfolio" class="nav-link" data-i18="portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#video" class="nav-link" data-i18="video">Video</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#price" class="nav-link" data-i18="price">Price</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contacts" class="nav-link" data-i18="contacts">Contacts</a>
+                        </li>                
+                    </ul>
+                </aside>               
+            </section>
+            <section class="section" id="skills">
+                <h2 class="section-title" id="skills-title"><span data-i18="skills">Skills</span></h2>
+                <div class="skill-items">
+                    <div class="skill">
+                        <img src="./assets/svg/camera.svg" alt="">
+                        <p class="skill-title" data-i18="skill-title-1">Digital photography</p>
+                        <span data-i18="skill-text-1-1">High-quality photos in the studio</span>
+                        <span data-i18="skill-text-1-2">and on the nature</span>
+                    </div>
+                    <div class="skill">
+                        <img src="./assets/svg/video.svg" alt="">
+                        <p class="skill-title" data-i18="skill-title-2">Video shooting</p>
+                        <span data-i18="skill-text-2-1">Capture your moments so that</span>
+                        <span data-i18="skill-text-2-2">they always stay with you</span>
+                    </div>
+                    <div class="skill">
+                        <img src="./assets/svg/image.svg" alt="">
+                        <p class="skill-title" data-i18="skill-title-3">Retouch</p>
+                        <span data-i18="skill-text-3-1">I strive to make photography</span>
+                        <span data-i18="skill-text-3-2">surpass reality</span>
+                    </div>
+                    <div class="skill">
+                        <img src="./assets/svg/mic.svg" alt="">
+                        <p class="skill-title" data-i18="skill-title-4">Audio</p>
+                        <span data-i18="skill-text-4-1">Professional sounds recording</span>
+                        <span data-i18="skill-text-4-2">for video, advertising, portfolio</span>
+                    </div>
+                </div>
+            </section>
+            <section class="section" id="portfolio">
+                <h2 class="section-title"><span data-i18="portfolio">Portfolio</span></h2>
+                <div class="portfolio-buttons">
+                    <div class="button-line">
+                        <p><button class="portfolio-button button-black" data-season="winter" data-i18="winter">Winter</button></p>
+                        <p><button class="portfolio-button button-black" data-season="spring" data-i18="spring">Spring</button></p>
+                    </div> 
+                    <div class="button-line">
+                        <p><button class="portfolio-button button-black" data-season="summer" data-i18="summer">Summer</button></p>
+                        <p><button class="portfolio-button button-black active" data-season="autumn" data-i18="autumn">Autumn</button></p>
+                    </div>
+                </div>
+                <div class="portfolio-pictures">
+                    <img class="portlolio-picture" src="./assets/img/portfolio/autumn/1.jpg" alt="">
+                    <img class="portlolio-picture" src="./assets/img/portfolio/autumn/2.jpg" alt="">
+                    <img class="portlolio-picture" src="./assets/img/portfolio/autumn/3.jpg" alt="">
+                    <img class="portlolio-picture" src="./assets/img/portfolio/autumn/4.jpg" alt="">
+                    <img class="portlolio-picture" src="./assets/img/portfolio/autumn/5.jpg" alt="">
+                    <img class="portlolio-picture" src="./assets/img/portfolio/autumn/6.jpg" alt="">
+                </div>
+            </section>
+            <section class="section" id="video">
+                <h2 class="section-title"><span data-i18="video">Video</span></h2>
+                <div id="player">
+                    <img id="video-player" src="./assets/img/video-player.jpg" alt="video-player">
+                    <div class="video768"></div>
+                    <button id="video-button"></button>
+                </div>
+            </section>
+            <section class="section" id="price">
+                <h2 class="section-title" id="price-title"><span data-i18="price">Price</span></h2>
+                <div class="price-span">
+                    <div class="price-block">
+                        <span class="price-name">Standart</span><span class="price-cost">500 $</span><span data-i18="price-description-1-span-1">One location</span><span data-i18="price-description-1-span-2">120 photos in color</span><span data-i18="price-description-1-span-3">12 photos in retouch</span><span data-i18="price-description-1-span-4">Readiness 2-3 weeks</span><span data-i18="price-description-1-span-5">Make-up, visage</span>
+                        <p><button class="button-gold price-button" onclick="document.location='#contacts'" data-i18="order">Order shooting</button></p> 
+                    </div>
+                    <div class="price-block">
+                        <span class="price-name">Premium</span><span class="price-cost">700 $</span><span data-i18="price-description-2-span-1">One or two locations</span><span data-i18="price-description-2-span-2">200 photos in color</span><span data-i18="price-description-2-span-3">20 photos in retouch</span><span data-i18="price-description-2-span-4">Readiness 1-2 weeks</span><span data-i18="price-description-2-span-5">Make-up, visage</span>
+                        <p><button class="button-gold price-button" onclick="document.location='#contacts'" data-i18="order">Order shooting</button></p> 
+                    </div>
+                    <div class="price-block">
+                        <span class="price-name">Gold</span><span class="price-cost">1000 $</span><span data-i18="price-description-3-span-1">Three locations or more</span><span data-i18="price-description-3-span-2">300 photos in color</span><span data-i18="price-description-3-span-3">50 photos in retouch</span><span data-i18="price-description-3-span-4">Readiness 1 week</span><span data-i18="price-description-3-span-5">Make-up, visage, hairstyle</span>
+                        <p><button class="button-gold price-button" onclick="document.location='#contacts'" data-i18="order">Order shooting</button></p> 
+                    </div>
+                </div>
+            </section>
+            <section class="section" id="contacts">
+                <div class="contacts-block">
+                    <h2 class="contacts-title" data-i18="contact-me">Contact me</h2>
+                    <form name="contact">                    
+                        <input type="email" size="45" name="email" placeholder="E-mail" data-i18="email">
+                        <input type="tel" size="45" name="phone" placeholder="Phone" data-i18="phone">
+                        <textarea name="message" rows="2" placeholder="Message" data-i18="message"></textarea>                    
+                    </form>
+                    <button class="button-gold" data-i18="send-message">Send message</button>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <a id="gh" href="https://github.com/vl-fom">©<span>2022</span>github</a>
+            <a id="rss" href="https://rs.school/js-stage0/">Rolling Scopes School</a>
+            <ul id="socials">
+                <li class="footer-logo inst">
+                    <a href="https://www.instagram.com" class="footer-link inst"></a>
+                </li>
+                <li class="footer-logo fb">
+                    <a href="https://www.facebook.com" class="footer-link"></a>
+                </li>
+                <li class="footer-logo tw">
+                    <a href="https://twitter.com" class="footer-link"></a>
+                </li>
+                <li class="footer-logo pin">
+                    <a href="https://www.pinterest.com" class="footer-link"></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <script src="./index.js"></script>
+</body>
+</html>

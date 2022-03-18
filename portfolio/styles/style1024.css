@@ -1,0 +1,22 @@
+@media (max-width: 1024px) {
+    :root {
+        --fonth1: 45px;
+    }
+
+    #hero-description {
+        flex-direction: column;
+        float: left;
+        height: 100% !important;
+    }
+
+    #video-button {
+        width: 100px;
+        height: 100px;
+    }
+
+    #contacts {
+        align-items: center;
+        padding-right: 0;
+    }
+}
+
