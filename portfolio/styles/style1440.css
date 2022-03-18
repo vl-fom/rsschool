@@ -1,0 +1,91 @@
+@media (max-width: 1439px) {
+    :root {
+        min-height: 1px;
+        --title: 80px;
+        --fonth1: 50px;
+        --font2: 33px;
+        --font3: 24px;
+        --font4: 20px;
+        --font5: 20px;
+    }
+
+    body {
+        width: 100%;
+    }
+
+    .section{
+        width: 100%;
+        padding: 80px 0 0 0;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .header .container {
+        background-size: 100%;
+    }
+
+    #hero {
+        flex-direction: column;
+        justify-content: flex-start;
+        height: auto;
+        padding-top: 0;
+        background-size: 100%;
+    }
+
+    #hero-description {
+        justify-content: left;
+        height: auto;
+        padding-top: calc(31% - 200px);
+        padding-bottom: calc(31% - 200px);
+    }
+
+    #skills {
+        height: auto;
+    }
+
+    #skills-title > span,
+    #price-title > span {
+        line-height: var(--title);
+    }
+
+    .skill-items {
+        justify-content: space-around;
+    }
+
+    .portfolio-buttons {
+        flex-wrap: wrap;
+    }
+
+    .portfolio-pictures {
+        justify-content: space-around;
+    }
+
+    #player {
+        height: auto;
+    }
+
+    #video-player {
+        width: 100%;
+        height: auto;
+    }
+
+    #price {
+        height: auto;
+        padding-bottom: 90px;
+    }
+
+    #contacts {
+        max-height: 540px;
+        padding-right: 20px;
+    }
+
+    #rss {
+        margin: 0 auto;
+    }
+
+    #socials {
+        flex-wrap: wrap;
+    }
+}
